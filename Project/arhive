@@ -1,0 +1,63 @@
+
+
+
+
+
+ЭТО КНОПКИ(!!!!!)
+<font color="white">
+    <font face="Arial" size="+3">
+    <ul>
+    <li><a href="проект.html" class="active">Главня</a></li>
+    <li><a href="str2.html">Warface сейчас</a></li>
+    </ul>
+
+
+
+
+ЭТО ВТОРАЯ СТРАНИЧКА(!!!!!)
+    <b>
+      <font color="white">
+      <font face="Arial" size="+3">
+         <ul>
+            <li><a href="проект.html">Главня</a></li>
+            <li><a href="str2.html" class="active">Warface сейчас</a></li>
+            </ul>
+            <div style="margin-left: 350px;margin-top: 150px;">
+               <font size="6">
+                  Как живет Warface сейчас?
+               </div>
+           </font>
+      </b>
+      
+
+
+
+      ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         border: 1px solid rgb(31, 31, 31);
+         background-color: #313131;
+      }
+      
+      li {
+         float: left;
+      }
+      
+      li a {
+         display: block;
+         color: #c2c2c2;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+         background-color: #858585;
+      }
+      
+      li a.active {
+         color: rgb(36, 36, 36);
+         background-color: #b8b8b8;
+      }

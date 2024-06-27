@@ -1,0 +1,113 @@
+
+ .style{
+   margin-left:230px;
+   margin-right:300px;
+   margin-top:50px;
+   font-size:25px;
+   width: 1000px;
+   color: darkgray;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.style2{
+   margin-left:250px;
+   margin-right:400px;
+   margin-top:50px;
+   font-size:35px;
+   width: 1000px;
+   color: darkgray;
+}
+
+.vid4{
+   z-index: 1;
+   margin-top:30px;
+   margin-left:175px;
+   border-radius:25px;
+}
+
+.podvid{
+   margin-left:350px;
+   margin-right:400px;
+   font-size:17px;
+   width: 900px;
+   color: grey;
+}
+
+.photo{
+   margin-top:30px;
+   margin-left:175px;
+   border-radius:25px;
+}
+
+i{
+   color: #f8f8f8;
+}
+
+body {
+   background-image: url("Картинки/fon.png");
+   margin: 0 auto;
+}
+
+.glav{
+   margin-left: 350px;
+   margin-top: 150px;
+   font-size: 40px;
+   width: 900px;
+   color: white;
+}
+
+ul {
+   z-index: 2;
+   list-style-type: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   border: 1px solid rgb(31, 31, 31);
+   background-color: #313131;
+}
+
+li {
+   float: left;
+}
+
+li a {
+   display: block;
+   color: #c2c2c2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover:not(.active) {
+   background-color: #858585;
+}
+
+li a.active {
+   color: rgb(36, 36, 36);
+   background-color: #b8b8b8;
+}
+
+.a11{
+   margin-left: 700px;
+   margin-top: 150px;
+   width: 800px;
+}
+
+.topNubex {
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
+   width: 50px;
+   height: 50px;
+   border: none;
+   background-image: url('Картинки/button.png');
+   background-size: cover;
+   }
+
+.Logo_Warface {
+   
+}
